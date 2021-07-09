@@ -1,0 +1,59 @@
+@media screen  and (max-width:1000px){ 
+  
+ 
+    .slider {
+        height: 100vh;
+    }
+    .card-items {
+        overflow: scroll;
+    }
+
+    .card-images{
+        height: 40vh;
+        width: 50vw;     
+        transition: 0.2s all ease-in-out;
+
+    }
+    /* Anime information pages repsonsive css */
+    .show-description > p{
+        font-size: 24px;
+       }
+       
+       /* .summary > p{
+        font-size: 15px;
+        padding: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        } */
+    
+}
+@media screen  and (max-width:660px){ 
+    .card-images{
+        height: 40vh;
+        width: 60vw;     
+        transition: 0.2s all ease-in-out;
+
+    }
+
+
+
+ 
+    .slider {
+        height: 47vh;
+    }
+    
+    .slider img {
+       
+        width: 90vw;
+        height: 45vh;
+    }
+}
+
+@media screen  and (max-width:500px){ 
+    .card-images{
+        height: 40vh;
+        width: 80vw;     
+        transition: 0.2s all ease-in-out;
+
+    }
+}

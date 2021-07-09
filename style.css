@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=New+Tegomin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bona Nova', serif;
+   
+
+} 
+#bg-img{
+    /* position: relative; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar{
+    position: absolute !important;
+}
+
+ .navbar ul{
+    /* color: antiquewhite !important; */
+    font-size: large;
+   
+
+}
+.dropdown-menu {
+    
+    background-color: transparent;
+
+    border: none;
+    
+}
+
+ a{
+    color:  black !important;
+    font-size: 22px !important;
+ 
+
+}
+a:hover{
+    text-decoration: underline black;
+
+
+}
+
+#quotes{
+    font-family: 'Mate SC', serif !important;
+    font-size: 20px;
+    position: absolute;
+    
+    top: 75%;
+    left: 35%;
+}
+.blockquote {
+    color: aqua;
+
+}
+
+
+
